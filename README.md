@@ -27,14 +27,14 @@ To demonstrate an automated pipeline that:
 
 ## 📂 Project Structure
 
-| File / Folder           | Description                                      |
-|-------------------------|--------------------------------------------------|
-| `linkedin_scraper.py`   | Scrapes profile links from Google (LinkedIn)     |
-| `linkedin_dummy_data.xlsx` | Dummy business leads for email testing       |
-| `email_template.html`   | Custom HTML email template with placeholders     |
-| `generate_emails.py`    | Replaces placeholders and creates HTML emails    |
-| `send_emails.py`        | Sends personalized emails using Gmail SMTP       |
-| `email_analytics.csv`   | Simulated analytics: opened, replied, lead stage |
+| File / Folder              | Description                                      |
+|----------------------------|--------------------------------------------------|
+| `linkedin_scraper.py`      | Scrapes profile links from Google (LinkedIn)     |
+| `linkedin_dummy_data.xlsx` | Dummy business leads for email testing           |
+| `email_template.html`      | Custom HTML email template with placeholders     |
+| `generate_emails.py`       | Replaces placeholders and creates HTML emails    |
+| `send_emails.py`           | Sends personalized emails using Gmail SMTP       |
+| `email_analytics.csv`      | Simulated analytics: opened, replied, lead stage |
 
 ---
 
@@ -48,13 +48,24 @@ To demonstrate an automated pipeline that:
 
 ---
 
-## 🧪 How to Run
+## 📽️ Demo
 
-### 🔹 Setup
+▶️ [Click here to watch the demo video](https://drive.google.com/file/d/1mwen73xLHHBI7aCdLZnV0osjUsuiMy58/view?usp=drive_link)
 
-1. Install required packages:
-   ```bash
-   pip install pandas beautifulsoup4 selenium openpyxl fake-useragent
+---
+
+## 📊 Email Campaign Analytics Summary
+
+- **Total Emails Sent:** 6  
+- **Emails Opened:** 4  
+- **CTA Clicked:** 2  
+- **Open Rate:** 66.6%  
+- **Click-Through Rate (CTR):** 33.3%  
+- **Hot Leads:** 2  
+- **Warm Leads:** 2  
+- **Cold Leads:** 2  
+
+> These metrics were simulated using dummy analytics data to showcase lead engagement tracking.
 
 ---
 
@@ -69,3 +80,24 @@ While this version focuses on Python-based automation, it is fully adaptable for
 - **Opt-in Behavior Analysis:** Cluster similar leads using unsupervised ML based on ICP features and response trends.
 
 > These upgrades can help turn the project into a full AI-driven sales assistant platform.
+
+---
+
+## 🧠 Skills Demonstrated
+
+- Python scripting and modular coding
+- Web scraping using BeautifulSoup and requests
+- Email automation using smtplib and email.message
+- Secure credential management via .env
+- Personalized email generation using HTML templates
+- Data analytics with pandas
+- Categorizing leads based on engagement (Hot/Warm/Cold)
+- GitHub documentation and video demo submission
+
+---
+
+## 👩‍💻 Author
+
+**Shruti Undhad**  
+Python Developer | Final Year CSE Student  
+[GitHub Profile](https://github.com/Shruti05196)
